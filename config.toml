@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+# baseURL = 'http://example.org/'
 languageCode = 'ja'
 title = 'My New Hugo Site'
 theme = 'ananke'
@@ -9,6 +9,9 @@ theme = 'ananke'
     [markup.goldmark.renderer]
       unsafe = true
 
+# 『assets/ananke/css』を作成。その中にCSSを配置。
 [params]
-    # 『assets/ananke/css』を作成。その中にCSSを配置。
     custom_css = ["./styles.css"]
+
+# gitHub で公開したい場合、『docs』という名前のディレクトリしか公開できないので、その設定。 
+publishDir = "docs"
