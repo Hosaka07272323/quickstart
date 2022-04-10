@@ -3,6 +3,10 @@ languageCode = 'ja'
 title = 'My New Hugo Site'
 theme = 'ananke'
 
+# gitHub で公開したい場合、『docs』という名前のディレクトリしか公開できないので、その設定。 
+# [markup]や[params]より上に書かなきゃいけない。
+publishDir = "docs"
+
 # HTMLが初期設定でオフになっているので、true に変える。
 [markup]
   [markup.goldmark]
@@ -12,6 +16,3 @@ theme = 'ananke'
 # 『assets/ananke/css』を作成。その中にCSSを配置。
 [params]
     custom_css = ["./styles.css"]
-
-# gitHub で公開したい場合、『docs』という名前のディレクトリしか公開できないので、その設定。 
-publishDir = "docs"
