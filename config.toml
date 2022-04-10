@@ -1,0 +1,14 @@
+baseURL = 'http://example.org/'
+languageCode = 'ja'
+title = 'My New Hugo Site'
+theme = 'ananke'
+
+# HTMLが初期設定でオフになっているので、true に変える。
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+    # 『assets/ananke/css』を作成。その中にCSSを配置。
+    custom_css = ["./styles.css"]
