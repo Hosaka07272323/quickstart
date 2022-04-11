@@ -7,6 +7,9 @@ theme = 'ananke'
 # [markup]や[params]より上に書かなきゃいけない。
 publishDir = "docs"
 
+# URLを変換？
+canonifyURLs = false
+
 # HTMLが初期設定でオフになっているので、true に変える。
 [markup]
   [markup.goldmark]
