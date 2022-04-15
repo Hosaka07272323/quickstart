@@ -17,5 +17,5 @@ canonifyURLs = false
       unsafe = true
 
 # 『assets/ananke/css』を作成。その中にCSSを配置。
-[params]
-    custom_css = ["./styles.css"]
+#[params]
+#    custom_css = ["./styles.css"]
